@@ -27,6 +27,7 @@ RUN apt-get update \
   libunicode-string-perl \
   liburi-perl  \
   libwww-perl \
+  libregexp-common-perl \
   procps \
   wget \
   && rm -rf /var/lib/apt/lists/*
